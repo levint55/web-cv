@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Carousel, ProgressBar } from "react-bootstrap";
+import "./Resume.css";
 
 const Resume = () => {
   const [index, setIndex] = useState(0);
@@ -9,33 +10,33 @@ const Resume = () => {
   };
 
   return (
-    <div className="row" id="resume">
-      <div className="col-12">
+    <div className="row detail-container" id="resume">
+      <div className="col-12 detail-header">
         <h1>Resume</h1>
         <span>My Formal Bio Details</span>
         <br />
         <span>TODO Separator</span>
       </div>
-      <div className="col-12">
+      <div className="col-12 detail-content">
         <div className="row">
           <div className="col-4">
-            <div>
+            <div onClick={() => setIndex(0)}>
               <span>Education</span>
             </div>
-            <div>
+            <div onClick={() => setIndex(1)}>
               <span>Work History</span>
             </div>
-            <div>
+            <div onClick={() => setIndex(2)}>
               <span>Programming Skills</span>
             </div>
-            <div>
+            <div onClick={() => setIndex(3)}>
               <span>Project</span>
             </div>
-            <div>
+            <div onClick={() => setIndex(4)}>
               <span>Interest</span>
             </div>
           </div>
-          <div className="col-8">
+          <div className="col-8 carousel-container">
             <Carousel
               activeIndex={index}
               onSelect={handleSelect}
@@ -115,7 +116,7 @@ const Resume = () => {
                   </div>
                   <div className="col-6">
                     React JS
-                    <ProgressBar now={60} />
+                    <ProgressBar now={50} />
                   </div>
                   <div className="col-6">
                     PHP

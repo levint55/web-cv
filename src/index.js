@@ -6,6 +6,7 @@ import Profile from "./PortfolioContainer/Home/Profile";
 import Navbar from "./PortfolioContainer/Navbar/Navbar";
 import Resume from "./PortfolioContainer/Resume/Resume";
 import Testimonial from "./PortfolioContainer/Testimonial/Testimonial";
+import "./global.css";
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
         <AboutMe />
         <Resume />
         <Testimonial />
-        <ContactMe />
+        {/* <ContactMe /> */}
       </div>
     </div>
   );

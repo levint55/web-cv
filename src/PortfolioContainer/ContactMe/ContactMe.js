@@ -3,7 +3,7 @@ import React from "react";
 const ContactMe = () => {
   return (
     <div className="row">
-      <div className="col-12">
+      <div className="col-12 text-center">
         <h1>Contact Me</h1>
         <span>Lets Keep in Touch</span>
         <br />

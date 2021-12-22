@@ -26,14 +26,14 @@ const Profile = () => {
               <Typical
                 loop={Infinity}
                 steps={[
-                  "Test1",
-                  1000,
-                  "Test2",
-                  1000,
+                  "Software Developer",
+                  3000,
+                  "React JS Developer",
+                  3000,
                   "Test3",
-                  1000,
+                  3000,
                   "Test4",
-                  1000,
+                  3000,
                 ]}
               />
             </h1>

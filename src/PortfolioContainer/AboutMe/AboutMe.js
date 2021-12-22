@@ -2,14 +2,14 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="row" id="about-me">
-      <div className="col-12">
+    <div className="row detail-container" id="about-me">
+      <div className="col-12 detail-header">
         <h1>About Me</h1>
         <span>Why Choose Me?</span>
         <br />
         <span>TODO Separator</span>
       </div>
-      <div className="col-12">
+      <div className="col-12 detail-content">
         <div className="card mb-3">
           <div className="row g-0">
             <div className="col-md-6">
