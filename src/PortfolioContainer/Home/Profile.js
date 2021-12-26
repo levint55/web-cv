@@ -1,11 +1,12 @@
 import React from "react";
 import Typical from "react-typical";
+import "./Profile.css";
 
 const Profile = () => {
   return (
-    <div className="row" id="home">
+    <div className="row detail-container profile-container" id="home">
       <div className="col-lg-6">
-        <div className="row">
+        <div className="row text-center">
           <div className="col-12 icon-container">
             <a
               href="https://www.instagram.com/?hl=en"
@@ -19,21 +20,19 @@ const Profile = () => {
             </a>
           </div>
           <div className="col-12">
-            <span>Hello I'm Amabel</span>
+            <span>Hello, I'm Amabel</span>
           </div>
           <div className="col-12">
             <h1>
               <Typical
                 loop={Infinity}
                 steps={[
-                  "Software Developer",
+                  "Software Engineer",
+                  3000,
+                  "PHP Developer",
                   3000,
                   "React JS Developer",
-                  3000,
-                  "Test3",
-                  3000,
-                  "Test4",
-                  3000,
+                  3000
                 ]}
               />
             </h1>
@@ -44,7 +43,7 @@ const Profile = () => {
           </div>
         </div>
       </div>
-      <div className="col-lg-6">
+      <div className="col-lg-6 picture-container">
         <img src="https://via.placeholder.com/380" alt="Profile" />
       </div>
     </div>

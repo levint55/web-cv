@@ -14,8 +14,7 @@ const Resume = () => {
       <div className="col-12 detail-header">
         <h1>Resume</h1>
         <span>My Formal Bio Details</span>
-        <br />
-        <span>TODO Separator</span>
+        <div class="divider div-transparent div-dot"></div>
       </div>
       <div className="col-12 detail-content">
         <div className="row">

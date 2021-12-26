@@ -9,11 +9,10 @@ const Testimonial = () => {
       <div className="col-12 detail-header">
         <h1>Testimonial</h1>
         <span>What My Coworker Say About Me</span>
-        <br />
-        <span>TODO Separator</span>
+        <div class="divider div-transparent div-dot"></div>
       </div>
       <div className="col-12 detail-content">
-        <OwlCarousel loop margin={10} nav>
+        <OwlCarousel loop margin={10}>
           <div className="item">
             <div className="card">
               <div className="card-body">

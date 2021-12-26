@@ -6,13 +6,12 @@ const AboutMe = () => {
       <div className="col-12 detail-header">
         <h1>About Me</h1>
         <span>Why Choose Me?</span>
-        <br />
-        <span>TODO Separator</span>
+        <div class="divider div-transparent div-dot"></div>
       </div>
       <div className="col-12 detail-content">
         <div className="card mb-3">
           <div className="row g-0">
-            <div className="col-md-6">
+            <div className="col-md-6 d-flex justify-content-center">
               <img
                 src="https://via.placeholder.com/380"
                 className="img-fluid rounded-start"

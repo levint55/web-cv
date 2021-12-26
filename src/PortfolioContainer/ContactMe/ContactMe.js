@@ -6,8 +6,7 @@ const ContactMe = () => {
       <div className="col-12 text-center">
         <h1>Contact Me</h1>
         <span>Lets Keep in Touch</span>
-        <br />
-        <span>TODO Separator</span>
+        <div class="divider div-transparent div-dot"></div>
       </div>
       <div className="col-12">
         <h2>Get in Touch</h2>

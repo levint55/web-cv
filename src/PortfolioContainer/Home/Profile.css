@@ -1,0 +1,10 @@
+.profile-container{
+    align-items: center;
+}
+.picture-container {
+    display: flex;
+    justify-content: center;
+}
+.picture-container img {
+    border-radius: 200px;
+}
